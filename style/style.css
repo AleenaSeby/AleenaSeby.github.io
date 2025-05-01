@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  header, section {
+    padding: 20px;
+  }
+  header {
+    text-align: center;
+  }
+  #skills ul, #projects ul {
+    list-style: none;
+    padding: 0;
+  }
+  #skills li, #projects li {
+    margin: 5px 0;
+  }
+  #contact a {
+    margin-right: 10px;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
