@@ -7,180 +7,7 @@
   <title>Aleena Seby | Full-Stack Developer</title>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400;500&display=swap"
     rel="stylesheet">
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: 'Roboto', sans-serif;
-      background-color: #000;
-      color: #fff;
-    }
-
-
-    .hero {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      min-height: 100vh;
-      text-align: center;
-      padding: 2rem;
-    }
-
-    .hero h1 {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 3rem;
-      font-weight: 700;
-      margin: 0.5rem 0;
-      background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-
-    .hero p.description {
-      max-width: 600px;
-      font-size: 1.2rem;
-      margin: 1rem 0 2rem 0;
-      color: #ccc;
-    }
-
-    .buttons {
-      display: flex;
-      gap: 1rem;
-    }
-
-    .buttons button {
-      padding: 0.7rem 1.5rem;
-      border: none;
-      border-radius: 5px;
-      font-weight: 500;
-      cursor: pointer;
-      background-color: #fff;
-      color: #000;
-      transition: background 0.3s ease;
-    }
-
-    .buttons button:hover {
-      background-color: #ccc;
-    }
-
-    .section {
-      padding: 4rem 2rem;
-      max-width: 900px;
-      margin: 0 auto;
-    }
-
-    .section h2 {
-      font-size: 2rem;
-      margin-bottom: 1rem;
-      color: #30CFD0;
-    }
-
-    .skills-grid {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 1rem;
-    }
-
-    .skill {
-      background-color: #111;
-      border: 1px solid #30CFD0;
-      padding: 0.5rem 1rem;
-      border-radius: 20px;
-      font-size: 1rem;
-      font-weight: 500;
-    }
-      .projects-section {
-      padding: 3rem 2rem;
-      max-width: 1100px;
-      margin: 0 auto;
-    }
-    .projects-header {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 1rem;
-      margin-bottom: 1.5rem;
-    }
-    .projects-header h2 {
-      margin: 0;
-      color: #30CFD0;
-      font-size: 1.9rem;
-    }
-    .projects-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 1rem;
-    }
-    .project-card {
-      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
-      border: 1px solid rgba(48,207,208,0.12);
-      padding: 1rem;
-      border-radius: 12px;
-      box-shadow: 0 6px 20px rgba(0,0,0,0.45);
-      display: flex;
-      flex-direction: column;
-      gap: 0.75rem;
-      min-height: 160px;
-    }
-    .project-card h3 {
-      margin: 0;
-      font-size: 1.15rem;
-      color: #fff;
-    }
-    .project-card p {
-      margin: 0;
-      color: #cfcfcf;
-      font-size: 0.95rem;
-      flex: 1;
-    }
-    .project-tags {
-      display: flex;
-      gap: 0.5rem;
-      flex-wrap: wrap;
-    }
-    .project-tag {
-      font-size: 0.8rem;
-      padding: 0.25rem 0.6rem;
-      border-radius: 999px;
-      background: rgba(48,207,208,0.08);
-      color: #30CFD0;
-      border: 1px solid rgba(48,207,208,0.12);
-    }
-    .project-links {
-      display: flex;
-      gap: 0.5rem;
-      margin-top: 0.5rem;
-    }
-    .project-btn {
-      background: #fff;
-      color: #000;
-      border: none;
-      padding: 0.45rem 0.75rem;
-      border-radius: 8px;
-      font-weight: 500;
-      cursor: pointer;
-      text-decoration: none;
-      font-size: 0.9rem;
-    }
-    .project-btn.outline {
-      background: transparent;
-      color: #30CFD0;
-      border: 1px solid rgba(48,207,208,0.18);
-    }
-
-    @media (max-width: 520px) {
-      .hero h1 { font-size: 2rem; }
-    }
-
-    p {
-      text-align: justify;
-    }
-
-    html {
-      scroll-behavior: smooth;
-    }
-  </style>
+  <link rel="stylesheet" href="style/style.css">
 </head>
 
 <body>
@@ -202,10 +29,11 @@
     <h2>About</h2>
     <p>
       I'm a Full-Stack Developer based in Calgary, Canada with over 7 years of experience building scalable
-      and user-friendly web applications. I specialize in React.js, Vue.js, Node.js, GraphQL, and AWS, with a strong foundation
-      in backend development using Python (Django), Express, and SQL databases. 
-      
-      Currently expanding cloud expertise through AWS certification to strengthen enterprise solution capabilities and 
+      and user-friendly web applications. I specialize in React.js, Vue.js, Node.js, GraphQL, and AWS, with a strong
+      foundation
+      in backend development using Python (Django), Express, and SQL databases.
+
+      Currently expanding cloud expertise through AWS certification to strengthen enterprise solution capabilities and
       Generative AI courses to integrate AI into modern applications.
 
       I hold a Bachelor's degree in Computer Science Engineering from the University of Calicut and have worked across
@@ -226,17 +54,17 @@
     <div class="projects-grid">
       <!-- Project 1 -->
       <article class="project-card">
-        <h3>Generative AI Chatbot with Streamlit UI</h3>
+        <h3>Generative AI Chatbot with Streamlit UI 🤖</h3>
         <p>A small Streamlit-based chat UI that demonstrates using the
-           Groq LLM (via the langchain_groq adapter) to build a conversational 
-           assistant. The app keeps chat history in Streamlit's session state
-            so conversations persist during a user session.</p>
+          Groq LLM (via the langchain_groq adapter) to build a conversational
+          assistant. The app keeps chat history in Streamlit's session state
+          so conversations persist during a user session.</p>
         <div class="project-tags">
           <span class="project-tag">Python</span>
           <span class="project-tag">Streamlit</span>
           <span class="project-tag">Chatbot</span>
           <span class="project-tag">Groq</span>
-           <span class="project-tag">Langchain</span>
+          <span class="project-tag">Langchain</span>
         </div>
         <div class="project-links">
           <a class="project-btn" href="https://github.com/AleenaSeby/Streamlit_GenAI_Chatbot" target="_blank">GitHub</a>
@@ -312,7 +140,8 @@
       system scalability and performance.<br>
       • Collaborated in Agile scrum teams on project estimation, code reviews, and peer feedback to maintain
       high-quality standards in project delivery.<br>
-      • Utilized Jira for project management and Git for version control, ensuring smooth and coordinated workflows.</p>
+      • Utilized Jira for project management and Git for version control, ensuring smooth and coordinated workflows.
+    </p>
 
     <p><strong>SENIOR SYSTEMS ENGINEER</strong><br>Feb 2020 - March 2021<br>INFOSYS LIMITED, BANGALORE, INDIA<br>
       <br>
@@ -320,7 +149,8 @@
       responsive UIs.<br>
       • Designed and implemented RESTful APIs for seamless communication between front-end and back-end systems.<br>
       • Ensured cross-browser compatibility, usability, and accessibility for consistent user experience across
-      platforms.</p>
+      platforms.
+    </p>
 
     <p><strong>ASSOCIATE SOFTWARE ENGINEER</strong><br>Oct 2018 - Jan 2020<br>CCS TECHNOLOGIES, KOCHI, INDIA<br>
       <br>
@@ -328,11 +158,13 @@
       integration.<br>
       • Built a healthcare application using Python/Django, allowing users to receive real-time symptom diagnosis and
       patient guidance.<br>
-      • Developed a chatbot with AWS Lex for customer support.</p>
+      • Developed a chatbot with AWS Lex for customer support.
+    </p>
 
     <p><strong>JUNIOR SOFTWARE DEVELOPER</strong><br>Aug 2017 - April 2018<br>ROSSAADS SOLUTIONS, KOCHI, INDIA<br>
       <br>
-      • Developed ASP.NET MVC applications with SQL Server, automating customer workflows.</p>
+      • Developed ASP.NET MVC applications with SQL Server, automating customer workflows.
+    </p>
   </section>
 
 </body>
